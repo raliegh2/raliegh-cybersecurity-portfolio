@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Raliegh Barnett cybersecurity, networking, ethical hacking, development, and digital forensics portfolio.">
+  <title>Raliegh Barnett | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Portfolio home"><span>RB</span><strong>Raliegh Barnett</strong></a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle color theme">◐</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Cybersecurity • Networking • Digital Forensics • Development</p>
+        <h1>Building secure systems and documenting how they work.</h1>
+        <p class="hero-text">BSc Computing student focused on networking and cybersecurity. This portfolio presents nine completed projects using concise case studies, evidence screenshots, technical outcomes, and downloadable documentation.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore projects</a>
+          <a class="button secondary" href="assets/docs/Raliegh_Barnett_Cybersecurity_Portfolio_Complete.pdf" target="_blank" rel="noopener">Download portfolio PDF</a>
+        </div>
+        <div class="hero-metrics" aria-label="Portfolio summary">
+          <div><strong data-count="9">0</strong><span>Documented projects</span></div>
+          <div><strong data-count="4">0</strong><span>Security disciplines</span></div>
+          <div><strong data-count="5">0</strong><span>Featured case studies</span></div>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="Core capabilities">
+        <div class="signal"><span></span><span></span><span></span></div>
+        <p>Current focus</p>
+        <h2>Defensive security supported by practical offensive testing.</h2>
+        <ul>
+          <li>Network monitoring and segmentation</li>
+          <li>Vulnerability assessment and validation</li>
+          <li>Forensic evidence analysis and reporting</li>
+          <li>Python security-tool development</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="about section-shell section-pad">
+      <div>
+        <p class="section-label">About</p>
+        <h2>Technical work presented as outcomes, not just assignments.</h2>
+      </div>
+      <p>I design, test, and document practical security solutions in authorised lab environments. My work spans Python network monitoring, pfSense and Snort defence, reconnaissance, vulnerability assessment, controlled exploitation, and digital forensic investigation. Every project below links technical actions to defensive recommendations and professional reporting.</p>
+    </section>
+
+    <section id="projects" class="projects-section section-pad">
+      <div class="section-shell">
+        <div class="section-heading">
+          <div><p class="section-label">Selected work</p><h2>Project case studies</h2></div>
+          <p>Filter by discipline or search by tool, technique, or outcome.</p>
+        </div>
+        <div class="project-controls">
+          <div class="filters" role="group" aria-label="Project filters">
+            <button class="filter active" data-filter="All">All</button>
+            <button class="filter" data-filter="Network Security">Network security</button>
+            <button class="filter" data-filter="Ethical Hacking">Ethical hacking</button>
+            <button class="filter" data-filter="Digital Forensics">Digital forensics</button>
+            <button class="filter" data-filter="Development">Development</button>
+          </div>
+          <label class="search-box"><span>Search</span><input id="projectSearch" type="search" placeholder="e.g., Nmap, Snort, Python" autocomplete="off"></label>
+        </div>
+        <p id="resultCount" class="result-count" aria-live="polite">Showing 9 projects</p>
+        <div class="project-grid"><article class="project-card" data-category="Development" data-search="ddos detection & mitigation system python-based real-time syn-flood detector with baseline learning, live traffic graphing, email alerts, logging, and automated ip blocking. python scapy matplotlib linux iptables smtp">
+      <button class="card-media" data-open="ddos" aria-label="Open DDoS Detection & Mitigation System details">
+        <img src="assets/images/ddos_architecture.png" alt="Evidence preview for DDoS Detection & Mitigation System" loading="lazy">
+        <span class="media-overlay">View case study</span>
+      </button>
+      <div class="card-body">
+        <div class="card-kicker"><span>Development</span><span class="featured-badge">Featured</span></div>
+        <h3>DDoS Detection & Mitigation System</h3>
+        <p>Python-based real-time SYN-flood detector with baseline learning, live traffic graphing, email alerts, logging, and automated IP blocking.</p>
+        <div class="tag-row"><span>Python</span><span>Scapy</span><span>Matplotlib</span><span>Linux</span></div>
+        <div class="card-actions">
+          <button class="text-button" data-open="ddos">Project details →</button>
+          <a class="icon-link" href="assets/docs/01_DDoS_Detection_and_Mitigation_System.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </div>
+    </article><article class="project-card" data-category="Network Security" data-search="virtual enterprise network defence layered network-security lab using pfsense, snort, captive portal authentication, segmentation, hfsc traffic shaping, and controlled validation. pfsense snort virtualbox kali linux nmap hfsc">
+      <button class="card-media" data-open="network-defence" aria-label="Open Virtual Enterprise Network Defence details">
+        <img src="assets/images/network_architecture.png" alt="Evidence preview for Virtual Enterprise Network Defence" loading="lazy">
+        <span class="media-overlay">View case study</span>
+      </button>
+      <div class="card-body">
+        <div class="card-kicker"><span>Network Security</span><span class="featured-badge">Featured</span></div>
+        <h3>Virtual Enterprise Network Defence</h3>
+        <p>Layered network-security lab using pfSense, Snort, captive portal authentication, segmentation, HFSC traffic shaping, and controlled validation.</p>
+        <div class="tag-row"><span>pfSense</span><span>Snort</span><span>VirtualBox</span><span>Kali Linux</span></div>
+        <div class="card-actions">
+          <button class="text-button" data-open="network-defence">Project details →</button>
+          <a class="icon-link" href="assets/docs/02_Virtual_Enterprise_Network_Defence.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </div>
+    </article><article class="project-card" data-category="Digital Forensics" data-search="digital forensics investigation structured forensic examination using ftk imager and autopsy, including hash verification, deleted-file recovery, communications analysis, and timeline reconstruction. autopsy ftk imager hashing metadata analysis timeline analysis">
+      <button class="card-media" data-open="forensics" aria-label="Open Digital Forensics Investigation details">
+        <img src="assets/images/forensics_workflow.png" alt="Evidence preview for Digital Forensics Investigation" loading="lazy">
+        <span class="media-overlay">View case study</span>
+      </button>
+      <div class="card-body">
+        <div class="card-kicker"><span>Digital Forensics</span><span class="featured-badge">Featured</span></div>
+        <h3>Digital Forensics Investigation</h3>
+        <p>Structured forensic examination using FTK Imager and Autopsy, including hash verification, deleted-file recovery, communications analysis, and timeline reconstruction.</p>
+        <div class="tag-row"><span>Autopsy</span><span>FTK Imager</span><span>Hashing</span><span>Metadata Analysis</span></div>
+        <div class="card-actions">
+          <button class="text-button" data-open="forensics">Project details →</button>
+          <a class="icon-link" href="assets/docs/03_Digital_Forensics_Investigation.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </div>
+    </article><article class="project-card" data-category="Ethical Hacking" data-search="footprinting, reconnaissance & scanning passive osint and authorised active reconnaissance using whois, ip intelligence, nmap scan types, and host discovery. whois ipinfo arin/ripe nmap kali linux">
+      <button class="card-media" data-open="osint" aria-label="Open Footprinting, Reconnaissance & Scanning details">
+        <img src="assets/images/osint_page.png" alt="Evidence preview for Footprinting, Reconnaissance & Scanning" loading="lazy">
+        <span class="media-overlay">View case study</span>
+      </button>
+      <div class="card-body">
+        <div class="card-kicker"><span>Ethical Hacking</span></div>
+        <h3>Footprinting, Reconnaissance & Scanning</h3>
+        <p>Passive OSINT and authorised active reconnaissance using WHOIS, IP intelligence, Nmap scan types, and host discovery.</p>
+        <div class="tag-row"><span>WHOIS</span><span>IPinfo</span><span>ARIN/RIPE</span><span>Nmap</span></div>
+        <div class="card-actions">
+          <button class="text-button" data-open="osint">Project details →</button>
+          <a class="icon-link" href="assets/docs/04_Footprinting_Reconnaissance_and_Scanning.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </div>
+    </article><article class="project-card" data-category="Ethical Hacking" data-search="port scanning & user enumeration fast and full-port reconnaissance, banner validation, smb enumeration, null-session testing, and automated host discovery. nmap netcat rpcclient enum4linux bash">
+      <button class="card-media" data-open="enumeration" aria-label="Open Port Scanning & User Enumeration details">
+        <img src="assets/images/enumeration_page.png" alt="Evidence preview for Port Scanning & User Enumeration" loading="lazy">
+        <span class="media-overlay">View case study</span>
+      </button>
+      <div class="card-body">
+        <div class="card-kicker"><span>Ethical Hacking</span></div>
+        <h3>Port Scanning & User Enumeration</h3>
+        <p>Fast and full-port reconnaissance, banner validation, SMB enumeration, null-session testing, and automated host discovery.</p>
+        <div class="tag-row"><span>Nmap</span><span>Netcat</span><span>rpcclient</span><span>enum4linux</span></div>
+        <div class="card-actions">
+          <button class="text-button" data-open="enumeration">Project details →</button>
+          <a class="icon-link" href="assets/docs/05_Port_Scanning_and_User_Enumeration.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </div>
+    </article><article class="project-card" data-category="Ethical Hacking" data-search="vulnerability assessment & exploit research manual and automated vulnerability assessment using nmap, nse, searchsploit, metasploit research, nikto, and openvas. nmap nse searchsploit metasploit nikto openvas bash">
+      <button class="card-media" data-open="vuln-assessment" aria-label="Open Vulnerability Assessment & Exploit Research details">
+        <img src="assets/images/vuln_assessment_page.png" alt="Evidence preview for Vulnerability Assessment & Exploit Research" loading="lazy">
+        <span class="media-overlay">View case study</span>
+      </button>
+      <div class="card-body">
+        <div class="card-kicker"><span>Ethical Hacking</span><span class="featured-badge">Featured</span></div>
+        <h3>Vulnerability Assessment & Exploit Research</h3>
+        <p>Manual and automated vulnerability assessment using Nmap, NSE, Searchsploit, Metasploit research, Nikto, and OpenVAS.</p>
+        <div class="tag-row"><span>Nmap NSE</span><span>Searchsploit</span><span>Metasploit</span><span>Nikto</span></div>
+        <div class="card-actions">
+          <button class="text-button" data-open="vuln-assessment">Project details →</button>
+          <a class="icon-link" href="assets/docs/06_Vulnerability_Assessment_and_Exploit_Research.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </div>
+    </article><article class="project-card" data-category="Ethical Hacking" data-search="controlled exploitation of vulnerable services authorised lab exploitation of weak credentials and known vulnerable services on metasploitable 2, followed by validation and remediation analysis. hydra metasploit searchsploit ftp nmap">
+      <button class="card-media" data-open="controlled-exploitation" aria-label="Open Controlled Exploitation of Vulnerable Services details">
+        <img src="assets/images/controlled_exploitation_page.png" alt="Evidence preview for Controlled Exploitation of Vulnerable Services" loading="lazy">
+        <span class="media-overlay">View case study</span>
+      </button>
+      <div class="card-body">
+        <div class="card-kicker"><span>Ethical Hacking</span></div>
+        <h3>Controlled Exploitation of Vulnerable Services</h3>
+        <p>Authorised lab exploitation of weak credentials and known vulnerable services on Metasploitable 2, followed by validation and remediation analysis.</p>
+        <div class="tag-row"><span>Hydra</span><span>Metasploit</span><span>Searchsploit</span><span>FTP</span></div>
+        <div class="card-actions">
+          <button class="text-button" data-open="controlled-exploitation">Project details →</button>
+          <a class="icon-link" href="assets/docs/07_Controlled_Exploitation_of_Vulnerable_Services.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </div>
+    </article><article class="project-card" data-category="Ethical Hacking" data-search="ssh, telnet & smtp security assessment security assessment of remote-access and messaging services using metasploit, nmap nse, key-based testing, and account enumeration. metasploit nmap nse ssh telnet smtp-user-enum">
+      <button class="card-media" data-open="service-security" aria-label="Open SSH, Telnet & SMTP Security Assessment details">
+        <img src="assets/images/ssh_assessment_page.png" alt="Evidence preview for SSH, Telnet & SMTP Security Assessment" loading="lazy">
+        <span class="media-overlay">View case study</span>
+      </button>
+      <div class="card-body">
+        <div class="card-kicker"><span>Ethical Hacking</span></div>
+        <h3>SSH, Telnet & SMTP Security Assessment</h3>
+        <p>Security assessment of remote-access and messaging services using Metasploit, Nmap NSE, key-based testing, and account enumeration.</p>
+        <div class="tag-row"><span>Metasploit</span><span>Nmap NSE</span><span>SSH</span><span>Telnet</span></div>
+        <div class="card-actions">
+          <button class="text-button" data-open="service-security">Project details →</button>
+          <a class="icon-link" href="assets/docs/08_SSH_Telnet_and_SMTP_Security_Assessment.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </div>
+    </article><article class="project-card" data-category="Digital Forensics" data-search="mobile device digital forensics android forensic-image analysis recovering gps history, sms, calls, contacts, applications, and travel-related search activity. autopsy ftk imager android artifacts gps analysis timeline reconstruction">
+      <button class="card-media" data-open="mobile-forensics" aria-label="Open Mobile Device Digital Forensics details">
+        <img src="assets/images/mobile_forensics_page.png" alt="Evidence preview for Mobile Device Digital Forensics" loading="lazy">
+        <span class="media-overlay">View case study</span>
+      </button>
+      <div class="card-body">
+        <div class="card-kicker"><span>Digital Forensics</span><span class="featured-badge">Featured</span></div>
+        <h3>Mobile Device Digital Forensics</h3>
+        <p>Android forensic-image analysis recovering GPS history, SMS, calls, contacts, applications, and travel-related search activity.</p>
+        <div class="tag-row"><span>Autopsy</span><span>FTK Imager</span><span>Android Artifacts</span><span>GPS Analysis</span></div>
+        <div class="card-actions">
+          <button class="text-button" data-open="mobile-forensics">Project details →</button>
+          <a class="icon-link" href="assets/docs/09_Mobile_Device_Digital_Forensics.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </div>
+    </article></div>
+        <div id="emptyState" class="empty-state" hidden>No projects match that search.</div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-shell section-pad">
+      <div class="section-heading"><div><p class="section-label">Capabilities</p><h2>Skills evidenced by the projects</h2></div></div>
+      <div class="skill-grid">
+        <article><span>01</span><h3>Network defence</h3><p>pfSense policy, Snort IDS, segmentation, captive portals, traffic shaping, TCP/IP, and Linux administration.</p></article>
+        <article><span>02</span><h3>Security assessment</h3><p>Nmap, NSE, OpenVAS, Nikto, Searchsploit, Metasploit, service enumeration, and evidence-based prioritisation.</p></article>
+        <article><span>03</span><h3>Digital forensics</h3><p>FTK Imager, Autopsy, hash verification, deleted artifacts, mobile evidence, metadata, and timeline reconstruction.</p></article>
+        <article><span>04</span><h3>Security development</h3><p>Python, Scapy, Bash automation, real-time monitoring, logging, visualization, alerting, and defensive controls.</p></article>
+      </div>
+    </section>
+
+    <section class="ethics section-pad">
+      <div class="section-shell ethics-box"><div><p class="section-label">Professional standard</p><h2>Authorised, isolated, and documented.</h2></div><p>All offensive-security activities shown in this portfolio were performed in controlled educational environments against deliberately vulnerable systems. Public-facing materials emphasize methodology, findings, remediation, and ethical scope.</p></div>
+    </section>
+
+    <section id="contact" class="contact section-shell section-pad">
+      <div><p class="section-label">Contact</p><h2>Open to cybersecurity, networking, and technical-support opportunities.</h2></div>
+      <div class="contact-card"><p>For internships, entry-level roles, or project discussions:</p><a href="mailto:ralieghsamuelbarnett@gmail.com">ralieghsamuelbarnett@gmail.com</a><p class="muted">GitHub and LinkedIn buttons can be connected once profile URLs are added in <code>index.html</code>.</p></div>
+    </section>
+  </main>
+
+  <footer><div class="section-shell"><span>© 2026 Raliegh Barnett</span><a href="#top">Back to top ↑</a></div></footer>
+
+  <dialog id="projectDialog" class="project-dialog">
+    <button class="dialog-close" aria-label="Close project details">×</button>
+    <div class="dialog-layout">
+      <div class="dialog-image-wrap"><img id="dialogImage" alt=""></div>
+      <div class="dialog-content">
+        <p id="dialogCategory" class="section-label"></p>
+        <h2 id="dialogTitle"></h2>
+        <p id="dialogOverview"></p>
+        <h3>Project highlights</h3><ul id="dialogHighlights"></ul>
+        <div class="result-box"><strong>Outcome</strong><p id="dialogResult"></p></div>
+        <div id="dialogTools" class="tag-row"></div>
+        <a id="dialogDoc" class="button primary" target="_blank" rel="noopener">Open detailed PDF</a>
+      </div>
+    </div>
+  </dialog>
+  <script>window.PROJECT_DATA = [{"id": "ddos", "title": "DDoS Detection & Mitigation System", "category": "Development", "featured": true, "summary": "Python-based real-time SYN-flood detector with baseline learning, live traffic graphing, email alerts, logging, and automated IP blocking.", "overview": "Designed and tested a defensive monitoring tool that observes TCP SYN traffic on a selected interface, learns a normal baseline, identifies abnormal packet rates, records events, alerts an administrator, and can block the leading source address in an isolated lab.", "tools": ["Python", "Scapy", "Matplotlib", "Linux", "iptables", "SMTP"], "highlights": ["10-second baseline learning phase", "Per-second SYN rate monitoring", "Top-source identification and automated blocking", "Live graph, event logs, and alert workflow"], "result": "Produced an end-to-end demonstration that connected controlled traffic generation to detection, alerting, visualization, and mitigation.", "image": "ddos_architecture.png", "doc": "01_DDoS_Detection_and_Mitigation_System.pdf"}, {"id": "network-defence", "title": "Virtual Enterprise Network Defence", "category": "Network Security", "featured": true, "summary": "Layered network-security lab using pfSense, Snort, captive portal authentication, segmentation, HFSC traffic shaping, and controlled validation.", "overview": "Built a virtual enterprise network with a routed LAN and untrusted WAN, then applied firewall policy, IDS monitoring, authentication, bandwidth controls, and source-based isolation before validating residual host risk against a deliberately vulnerable target.", "tools": ["pfSense", "Snort", "VirtualBox", "Kali Linux", "Nmap", "HFSC"], "highlights": ["Dual-interface pfSense perimeter", "Snort GPLv2 and ET Open rules", "Captive portal and source-based segmentation", "Traffic shaping and controlled security validation"], "result": "Demonstrated that perimeter filtering, detection, access control, and host hardening must work together as defence in depth.", "image": "network_architecture.png", "doc": "02_Virtual_Enterprise_Network_Defence.pdf"}, {"id": "forensics", "title": "Digital Forensics Investigation", "category": "Digital Forensics", "featured": true, "summary": "Structured forensic examination using FTK Imager and Autopsy, including hash verification, deleted-file recovery, communications analysis, and timeline reconstruction.", "overview": "Examined multiple forensic images while preserving evidence integrity. The workflow covered cryptographic verification, file-system review, metadata extraction, deleted artifacts, email analysis, multimedia evidence, and timeline development.", "tools": ["Autopsy", "FTK Imager", "Hashing", "Metadata Analysis", "Timeline Analysis"], "highlights": ["MD5 and SHA-1 evidence verification", "Deleted-file and unallocated-space analysis", "Email, metadata, and multimedia review", "Evidence timeline and reporting"], "result": "Produced a professional investigative report with traceable findings, integrity checks, documented limitations, and recommendations.", "image": "forensics_workflow.png", "doc": "03_Digital_Forensics_Investigation.pdf"}, {"id": "osint", "title": "Footprinting, Reconnaissance & Scanning", "category": "Ethical Hacking", "featured": false, "summary": "Passive OSINT and authorised active reconnaissance using WHOIS, IP intelligence, Nmap scan types, and host discovery.", "overview": "Compared passive information gathering with active scanning. Public records, hosting providers, ASNs, geolocation, and DNS details were assessed before testing TCP connect, SYN, UDP, and OS fingerprint scans in a controlled environment.", "tools": ["WHOIS", "IPinfo", "ARIN/RIPE", "Nmap", "Kali Linux"], "highlights": ["Domain and hosting intelligence", "RIR and ASN cross-checking", "TCP connect, SYN, UDP, and OS scans", "Privacy-aware OSINT interpretation"], "result": "Built a repeatable reconnaissance workflow that distinguishes low-impact public intelligence from authorised active probing.", "image": "osint_page.png", "doc": "04_Footprinting_Reconnaissance_and_Scanning.pdf"}, {"id": "enumeration", "title": "Port Scanning & User Enumeration", "category": "Ethical Hacking", "featured": false, "summary": "Fast and full-port reconnaissance, banner validation, SMB enumeration, null-session testing, and automated host discovery.", "overview": "Assessed a Metasploitable 2 host by comparing fast scans with a full TCP SYN scan, validating service banners, enumerating SMB users and shares, and building a parallel Bash ping-sweep script.", "tools": ["Nmap", "Netcat", "rpcclient", "enum4linux", "Bash"], "highlights": ["Fast versus full-port scan comparison", "35+ local and service accounts identified", "Anonymous SMB information exposure", "Parallel /24 ping-sweep automation"], "result": "Showed how deeper enumeration reveals hidden services, weak account hygiene, exposed shares, and attack paths missed by quick scanning.", "image": "enumeration_page.png", "doc": "05_Port_Scanning_and_User_Enumeration.pdf"}, {"id": "vuln-assessment", "title": "Vulnerability Assessment & Exploit Research", "category": "Ethical Hacking", "featured": true, "summary": "Manual and automated vulnerability assessment using Nmap, NSE, Searchsploit, Metasploit research, Nikto, and OpenVAS.", "overview": "Mapped vulnerable services to known CVEs, validated high-risk findings with protocol-specific checks, researched appropriate Linux exploits, and automated Nmap-to-Searchsploit processing for repeatable triage.", "tools": ["Nmap NSE", "Searchsploit", "Metasploit", "Nikto", "OpenVAS", "Bash"], "highlights": ["CVE validation for vsftpd and UnrealIRCd", "Exploit-DB research and platform filtering", "Automated banner-to-exploit lookup", "Manual and scanner-result correlation"], "result": "Produced a prioritised vulnerability picture grounded in service evidence rather than relying only on banners or automated severity ratings.", "image": "vuln_assessment_page.png", "doc": "06_Vulnerability_Assessment_and_Exploit_Research.pdf"}, {"id": "controlled-exploitation", "title": "Controlled Exploitation of Vulnerable Services", "category": "Ethical Hacking", "featured": false, "summary": "Authorised lab exploitation of weak credentials and known vulnerable services on Metasploitable 2, followed by validation and remediation analysis.", "overview": "Tested exposed services in an isolated network using small credential lists, FTP validation, vulnerability research, and a controlled vsftpd backdoor exercise to verify the impact of outdated software and weak authentication.", "tools": ["Hydra", "Metasploit", "Searchsploit", "FTP", "Nmap"], "highlights": ["30+ exposed service inventory", "Weak FTP credentials identified", "CVE-2011-2523 validation", "Root-level impact demonstrated in a lab"], "result": "Connected discovery, authentication testing, vulnerability confirmation, and defensive recommendations into a complete assessment workflow.", "image": "controlled_exploitation_page.png", "doc": "07_Controlled_Exploitation_of_Vulnerable_Services.pdf"}, {"id": "service-security", "title": "SSH, Telnet & SMTP Security Assessment", "category": "Ethical Hacking", "featured": false, "summary": "Security assessment of remote-access and messaging services using Metasploit, Nmap NSE, key-based testing, and account enumeration.", "overview": "Evaluated SSH, Telnet, and SMTP exposure on a deliberately vulnerable server. The lab covered dictionary-based SSH checks, session management, privilege validation, shell-to-Meterpreter upgrade, RSA-key risk, Telnet weaknesses, and SMTP user enumeration.", "tools": ["Metasploit", "Nmap NSE", "SSH", "Telnet", "smtp-user-enum"], "highlights": ["Valid SSH credentials confirmed", "Passwordless sudo exposure identified", "Shell upgraded for stable post-exploitation", "SMTP account enumeration assessed"], "result": "Demonstrated how weak credentials, legacy protocols, and excessive privileges can combine into full compromise.", "image": "ssh_assessment_page.png", "doc": "08_SSH_Telnet_and_SMTP_Security_Assessment.pdf"}, {"id": "mobile-forensics", "title": "Mobile Device Digital Forensics", "category": "Digital Forensics", "featured": true, "summary": "Android forensic-image analysis recovering GPS history, SMS, calls, contacts, applications, and travel-related search activity.", "overview": "Verified a segmented E01 image, then used Autopsy to extract system information, cached geolocation, Google Maps navigation history, communications, contacts, installed applications, and app-store searches.", "tools": ["Autopsy", "FTK Imager", "Android Artifacts", "GPS Analysis", "Timeline Reconstruction"], "highlights": ["MD5 and SHA-1 image verification", "Google Maps destination and GPS recovery", "1,500 call-log entries and SMS review", "Cross-artifact timeline reconstruction"], "result": "Correlated location, identity, communication, and travel artifacts into a concise evidence-based investigative narrative.", "image": "mobile_forensics_page.png", "doc": "09_Mobile_Device_Digital_Forensics.pdf"}];</script>
+</body>
+</html>
