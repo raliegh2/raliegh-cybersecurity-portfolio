@@ -1,26 +1,20 @@
-# Raliegh Barnett Cybersecurity Portfolio Website
+# Raliegh Barnett Cybersecurity Portfolio
 
-A responsive static website generated from the documented portfolio projects.
+Interactive static portfolio website presenting nine documented cybersecurity, networking, ethical-hacking, digital-forensics, and development projects.
 
-## Open locally
+## Added profile content
+- Professional summary
+- Education and relevant coursework
+- IT support experience
+- Target roles and certification roadmap
+- GitHub repository content guide
+- Professional statement
 
-Open `index.html` in a modern browser. For the most reliable PDF and asset behavior, run a local server:
+## Run locally
+Open `index.html` in a browser.
 
-```bash
-python -m http.server 8000
-```
+## Publish with GitHub Pages
+Push the contents of this folder to the root of the repository, then select **Settings → Pages → Deploy from a branch → main → /(root)**.
 
-Then visit `http://localhost:8000`.
-
-## Features
-
-- Nine project case studies drawn from the supplied reports
-- Category filters and live search
-- Interactive project-detail dialog
-- Downloadable detailed project PDFs
-- Responsive dark/light theme
-- Accessible semantic structure and reduced-motion support
-
-## Before publishing
-
-Add your GitHub and LinkedIn URLs in `index.html`. Review every PDF before making it public, especially digital-forensics material. Only sanitized code and non-confidential evidence should be uploaded to a public repository.
+## Public-release check
+Before publishing, confirm that the repository contains no passwords, API keys, private forensic evidence, or confidential source reports.
