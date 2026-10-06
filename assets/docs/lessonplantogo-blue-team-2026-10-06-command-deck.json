@@ -1,0 +1,25 @@
+{
+  "kind": "security",
+  "target": "live",
+  "url": "https://lessonplantogo.onrender.com",
+  "ranAt": "2026-10-06T18:26:40.371Z",
+  "score": 100,
+  "grade": "A",
+  "counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "info": 1
+  },
+  "findings": [
+    {
+      "severity": "info",
+      "category": "headers",
+      "id": "server-banner-present",
+      "message": "Server header discloses: 'cloudflare'"
+    }
+  ],
+  "status": "pass",
+  "detail": "webaudit grade A (100/100): no issues above info."
+}

@@ -1,0 +1,183 @@
+{
+  "target": "https://lessonplantogo.onrender.com",
+  "finalUrl": "https://lessonplantogo.church-care-hub.workers.dev/",
+  "timestamp": "2026-10-06T18:28:13.486080+00:00",
+  "root": {
+    "status": 200,
+    "bytes": 3139,
+    "sha256": "491a0d313bc04f3ea80d26b15e80b9d2d8253128c91b2b3ead140d837f877ca6",
+    "location": null
+  },
+  "headers": {
+    "Content-Security-Policy": "default-src 'self'; img-src 'self' data: https://images.unsplash.com https://*.clerk.com https://img.clerk.com; connect-src 'self' https://subtle-pup-45.clerk.accounts.dev https://*.clerk.accounts.dev https://*.clerk.dev https://*.clerk.com https://api.clerk.com https://clerk-telemetry.com https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://*.clerk.accounts.dev https://*.clerk.dev https://*.clerk.com https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://subtle-pup-45.clerk.accounts.dev https://*.clerk.accounts.dev https://*.clerk.dev https://*.clerk.com https://cdn.jsdelivr.net https://challenges.cloudflare.com; base-uri 'none'; frame-ancestors 'none'; form-action 'self' https://subtle-pup-45.clerk.accounts.dev https://*.clerk.accounts.dev https://*.clerk.dev https://*.clerk.com; frame-src 'self' https://subtle-pup-45.clerk.accounts.dev https://*.clerk.accounts.dev https://*.clerk.dev https://*.clerk.com https://challenges.cloudflare.com; child-src 'self' https://subtle-pup-45.clerk.accounts.dev https://*.clerk.accounts.dev https://*.clerk.dev https://*.clerk.com https://challenges.cloudflare.com blob:; worker-src 'self' blob:; font-src 'self' https://fonts.gstatic.com data:",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "no-referrer",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=()",
+    "Server": "cloudflare"
+  },
+  "cookies": [],
+  "cors": {
+    "status": 200,
+    "origin": "https://webaudit-origin-test.invalid",
+    "allowOrigin": null,
+    "allowCredentials": null
+  },
+  "tls": {
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ],
+    "notBefore": "Sep 21 22:04:31 2026 GMT",
+    "notAfter": "Dec 20 23:04:28 2026 GMT",
+    "verified": true
+  },
+  "destinationTls": {
+    "host": "lessonplantogo.church-care-hub.workers.dev",
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ],
+    "notAfter": "Jan  3 19:41:56 2027 GMT",
+    "verified": true
+  },
+  "paths": {
+    "/__blue_team_missing_20261006__": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/__blue_team_missing_20261006__",
+      "destination": {
+        "status": 404,
+        "bytes": 1552,
+        "sha256": "cdf7536e0ef0e31a3e3934b44c8ec70a0da599a4b79a97878285f6cf7ae8aa76",
+        "location": null
+      }
+    },
+    "/.env": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/.env",
+      "destination": {
+        "status": 404,
+        "bytes": 1552,
+        "sha256": "cdf7536e0ef0e31a3e3934b44c8ec70a0da599a4b79a97878285f6cf7ae8aa76",
+        "location": null
+      }
+    },
+    "/.git/config": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/.git/config",
+      "destination": {
+        "status": 404,
+        "bytes": 1552,
+        "sha256": "cdf7536e0ef0e31a3e3934b44c8ec70a0da599a4b79a97878285f6cf7ae8aa76",
+        "location": null
+      }
+    },
+    "/.git/HEAD": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/.git/HEAD",
+      "destination": {
+        "status": 404,
+        "bytes": 1552,
+        "sha256": "cdf7536e0ef0e31a3e3934b44c8ec70a0da599a4b79a97878285f6cf7ae8aa76",
+        "location": null
+      }
+    },
+    "/wp-config.php.bak": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/wp-config.php.bak",
+      "destination": {
+        "status": 403,
+        "bytes": 4563,
+        "sha256": "8f218312c4fe08c3ec2e2fb6974166a326401f3a7b3c0f6c7b34f693a15f50e3",
+        "location": null
+      }
+    },
+    "/config.php.bak": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/config.php.bak",
+      "destination": {
+        "status": 404,
+        "bytes": 1552,
+        "sha256": "cdf7536e0ef0e31a3e3934b44c8ec70a0da599a4b79a97878285f6cf7ae8aa76",
+        "location": null
+      }
+    },
+    "/.DS_Store": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/.DS_Store",
+      "destination": {
+        "status": 404,
+        "bytes": 1552,
+        "sha256": "cdf7536e0ef0e31a3e3934b44c8ec70a0da599a4b79a97878285f6cf7ae8aa76",
+        "location": null
+      }
+    },
+    "/backup.zip": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/backup.zip",
+      "destination": {
+        "status": 404,
+        "bytes": 1552,
+        "sha256": "cdf7536e0ef0e31a3e3934b44c8ec70a0da599a4b79a97878285f6cf7ae8aa76",
+        "location": null
+      }
+    },
+    "/.htaccess": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/.htaccess",
+      "destination": {
+        "status": 404,
+        "bytes": 1552,
+        "sha256": "cdf7536e0ef0e31a3e3934b44c8ec70a0da599a4b79a97878285f6cf7ae8aa76",
+        "location": null
+      }
+    },
+    "/server-status": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/server-status",
+      "destination": {
+        "status": 404,
+        "bytes": 1552,
+        "sha256": "cdf7536e0ef0e31a3e3934b44c8ec70a0da599a4b79a97878285f6cf7ae8aa76",
+        "location": null
+      }
+    },
+    "/phpinfo.php": {
+      "status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "location": "https://lessonplantogo.church-care-hub.workers.dev/phpinfo.php",
+      "destination": {
+        "status": 404,
+        "bytes": 1552,
+        "sha256": "cdf7536e0ef0e31a3e3934b44c8ec70a0da599a4b79a97878285f6cf7ae8aa76",
+        "location": null
+      }
+    }
+  }
+}
