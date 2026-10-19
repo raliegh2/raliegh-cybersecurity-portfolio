@@ -1,0 +1,126 @@
+# raliegh-portfolio — Security operations adoption
+
+Status: local preparation for owner review; not pushed, merged or deployed.
+
+## Platform and trust boundaries
+
+Static GitHub Pages application. There is no application login or endpoint process tree. Use repository/CI/account audit evidence and provider controls as scoped alternatives. HTML meta CSP cannot supply HTTP HSTS, frame-ancestors or Permissions-Policy headers; those remain platform/hosting decisions.
+
+## Prepared protections
+
+Project data moved to project-data.js so the document can enforce self-hosted scripts without inline JavaScript. The page adds a CSP and no-referrer policy; project highlight/tool rendering uses textContent rather than innerHTML. The existing page scripts, fonts, filters and details were checked locally.
+
+A pinned GitHub Actions workflow runs security regressions on pull requests and main/master pushes with contents:read and no deployment step. The workflow is prepared; it has not been confirmed executed on GitHub.
+
+## Verification
+
+2 tests passed locally. The CSP-protected page and project-detail modal worked in the browser without console security errors. No production requests containing customer data or real malware were used.
+
+## Fourteen control requirements
+
+### Alert triage
+
+- Named responder and severity policy
+- Acknowledgement and escalation targets with an on-call fallback
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### Log analysis
+
+- Structured allowlisted metadata logs; no request bodies, cookies or tokens
+- Retention, access controls, clock synchronization and ingestion health ownership
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### SIEM queries (SPL / KQL)
+
+- Versioned queries with bounded windows and named data-source mappings
+- A tested export/ingestion connector; local fixtures do not certify an external SIEM
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### EDR investigation
+
+- EDR coverage on supported endpoints or documented platform/provider alternative
+- Least privilege and reviewed process execution policy; Workers do not expose workstation process trees
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### Phishing analysis
+
+- Mail authentication and reported-message handling where email is used
+- Verified password-reset destinations and provider abuse reporting
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### Malware triage
+
+- Quarantine and scan upload paths where applicable
+- No executable samples or shell commands accepted by Command Deck labs
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### IOC enrichment
+
+- Approved enrichment providers and an explicit data-sharing policy
+- Local-only lookup by default; no customer indicators sent externally
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### Detection tuning
+
+- Versioned thresholds and expiring exceptions
+- Detection changes require review; never suppress all failures globally
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### ATT&CK mapping
+
+- Reviewable detection-to-technique mapping with coverage gaps
+- Technique labels do not establish incident confirmation or prevention coverage
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### Forensic timelines
+
+- Protected event retention and export/custody procedure
+- Off-device protected log export for stronger integrity guarantees
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### Escalation & handoff
+
+- On-call ownership, handoff template and escalation channel
+- Sensitive evidence remains in its authorized store; summaries are redacted
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### SOAR automation
+
+- Allowlisted actions, least privilege and idempotency
+- No automatic production mutations; preserve reviewed-fix workflow
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### Reporting & lessons learned
+
+- Post-incident review and tracked corrective work
+- Lessons enter RAG/CAG only through the existing review boundary
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+### Purple team exercises
+
+- Scheduled scoped exercises with rollback and stopping criteria
+- Synthetic success is not evidence of live EDR/SIEM coverage
+
+Evidence needed: named owner, platform applicability/alternative, UTC observation time, revision/provider receipt and verification result. Keep deployment claims pending until verified against the deployed revision.
+
+
+## Rollout and rollback
+
+Review the prepared patch and the source manifest in Command Deck. Re-run the listed tests/build, review existing deployment automation, and use the normal approved merge/deploy workflow. After deployment, test login/session/authorization and safe failure responses, verify request-ID and policy headers, and verify sanitized log ingestion/retention. Do not change production credentials, user records or isolation rules as part of this baseline rollout. Revert the reviewed commit through the normal release path if regression evidence warrants rollback; no data/schema migration is included.
+
+## Knowledge, labs and remaining setup
+
+Command Deck's Cybersecurity section and shared security-operations Markdown library hold the investigation steps, SPL/KQL templates, inert labs and evidence review. Synthetic results never satisfy production controls. SIEM ingestion, endpoint/provider telemetry coverage, mail authentication where applicable, on-call ownership and off-device protected evidence retention still require configured and reviewed evidence. The current local reviewer uses the operator bearer session; no independently authenticated reviewer identity is introduced.
